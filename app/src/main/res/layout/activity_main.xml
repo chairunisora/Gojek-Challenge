@@ -3,16 +3,165 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_icon_home_colored"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:srcCompat="@drawable/ic_icon_promo_stroked"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:srcCompat="@drawable/ic_icon_orders_stroked"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_icon_chat_stroked"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_account"
+        tools:layout_editor_absoluteX="359dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="310dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_home_search_round_medium_icon_search_vector" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:srcCompat="@drawable/ic_icon_go_goride" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:srcCompat="@drawable/ic_icon_go_gocar" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="31dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:srcCompat="@drawable/ic_icon_go_gofood" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:srcCompat="@drawable/ic_icon_go_gosend"
+        tools:layout_editor_absoluteX="325dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView19"
+        app:srcCompat="@drawable/ic_icon_go_gopulsa"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:srcCompat="@drawable/ic_icon_go_gomart"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/ic_icon_go_more"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/ic_icon_text_gopay"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:srcCompat="@drawable/ic_icon_promo2_colored"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="23dp"
+        android:layout_height="21dp"
+        app:srcCompat="@drawable/ic_icon_go_gofood"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="28dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView13"
+        app:srcCompat="@drawable/ic_icon_go_gopay"
+        tools:layout_editor_absoluteY="287dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
