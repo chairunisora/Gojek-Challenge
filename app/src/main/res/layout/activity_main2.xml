@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/rectangle_orange" />
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/rectangle" />
+
+    <SearchView
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Minyak Murah"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@mipmap/ic_cart_foreground" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@mipmap/ic_buble_foreground"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/ic_scan_foreground" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/ic_pay_foreground" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/shopeepay"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="10dp"
+        android:text="Bayar Lebih Cepat"
+        android:textSize="13dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/ic_coin_foreground" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        android:text="Koin Shopee"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="10dp"
+        android:text="Klaim koin disini"
+        android:textSize="13dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/ic_scan_foreground" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_paylater_foreground" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="SPayLater" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_pulsa_foreground" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/pulsa_tagihan_hiburan"
+        android:textAlignment="center"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_xpress_foreground" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Shopee Xpress"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_mall_foreground" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Shopee Mall"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_voucer_foreground" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/gratis_ongkir_voucer"
+        android:textAlignment="center"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_games_foreground" />
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Shopee Games"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_cod_foreground" />
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Bayar Di Tempat"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_food_foreground" />
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="ShopeeFood"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_iklan1_foreground" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_iklan2_foreground" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_iklan3_foreground" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@mipmap/ic_rec_foreground" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginBottom="200dp"
+        android:text="Rekomendasi"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@mipmap/ic_feed_foreground" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginBottom="200dp"
+        android:text="Feed"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="675dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@mipmap/ic_live_foreground" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginBottom="200dp"
+        android:text="Shopee Live"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@mipmap/ic_notif_foreground" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginBottom="200dp"
+        android:text="Notifikasi"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@mipmap/ic_me_foreground" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginBottom="200dp"
+        android:text="Saya"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+</RelativeLayout>
+

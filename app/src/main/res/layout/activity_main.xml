@@ -11,62 +11,92 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
         android:layout_marginEnd="60dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_icon_home_colored"
-        tools:layout_editor_absoluteY="691dp" />
+        app:srcCompat="@drawable/ic_icon_home_colored" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_green" />
+
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="364dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121"
+        app:srcCompat="@drawable/square" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="60dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
-        app:srcCompat="@drawable/ic_icon_promo_stroked"
-        tools:layout_editor_absoluteY="691dp" />
+        app:srcCompat="@drawable/ic_icon_promo_stroked" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:srcCompat="@drawable/ic_icon_orders_stroked"
-        tools:layout_editor_absoluteY="691dp" />
+        app:srcCompat="@drawable/ic_icon_orders_stroked" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="65dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_icon_chat_stroked"
-        tools:layout_editor_absoluteY="691dp" />
+        app:srcCompat="@drawable/ic_icon_chat_stroked" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/searchView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_account"
-        tools:layout_editor_absoluteX="359dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="310dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_home_search_round_medium_icon_search_vector" />
+        app:srcCompat="@drawable/ic_account" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="36dp"
         android:layout_height="35dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="48dp"
         android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView12"
         app:layout_constraintEnd_toStartOf="@+id/imageView8"
@@ -96,72 +126,96 @@
         android:id="@+id/imageView10"
         android:layout_width="34dp"
         android:layout_height="33dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="28dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView13"
-        app:srcCompat="@drawable/ic_icon_go_gosend"
-        tools:layout_editor_absoluteX="325dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_icon_go_gosend" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="33dp"
         android:layout_height="32dp"
         android:layout_marginEnd="60dp"
+        android:layout_marginBottom="412dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView19"
-        app:srcCompat="@drawable/ic_icon_go_gopulsa"
-        tools:layout_editor_absoluteY="286dp" />
+        app:srcCompat="@drawable/ic_icon_go_gopulsa" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="35dp"
         android:layout_height="32dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="412dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView11"
-        app:srcCompat="@drawable/ic_icon_go_gomart"
-        tools:layout_editor_absoluteY="286dp" />
+        app:srcCompat="@drawable/ic_icon_go_gomart" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        app:srcCompat="@drawable/ic_icon_go_more"
-        tools:layout_editor_absoluteX="324dp"
-        tools:layout_editor_absoluteY="283dp" />
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="408dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_icon_go_more" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="105dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        app:srcCompat="@drawable/rectangle" />
 
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="116dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/ic_icon_text_gopay"
-        tools:layout_editor_absoluteX="28dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_icon_text_gopay" />
 
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView18"
-        app:srcCompat="@drawable/ic_icon_promo2_colored"
-        tools:layout_editor_absoluteX="28dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_icon_promo2_colored" />
 
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="23dp"
         android:layout_height="21dp"
-        app:srcCompat="@drawable/ic_icon_go_gofood"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="485dp" />
+        android:layout_marginBottom="168dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_icon_go_gofood" />
 
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="28dp"
         android:layout_height="31dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="412dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView13"
-        app:srcCompat="@drawable/ic_icon_go_gopay"
-        tools:layout_editor_absoluteY="287dp" />
+        app:srcCompat="@drawable/ic_icon_go_gopay" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

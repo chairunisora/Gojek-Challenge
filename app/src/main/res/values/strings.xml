@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Gojek</string>
+    <string name="shopeepay">ShopeePay</string>
+    <string name="pulsa_tagihan_hiburan"><![CDATA[Pulsa, Tagihan, & Hiburan]]></string>
+    <string name="gratis_ongkir_voucer"><![CDATA[Gratis Ongkir & Voucer]]></string>
 </resources>
